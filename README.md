@@ -24,11 +24,11 @@ Dunno. I tried this on a NodeMCU, however it didn't work. I guess that was becau
 
 Connections:
 - Pin 8: one end of Pushbutton 
-- Pin 7: DIN of MAX7129
-- Pin 6: CS of MAX7129
-- Pin 5: CLK of MAX7129
-- +5V: the other end of Pushbutton and VCC of MAX7129
-- GND: GND on MAX7129
+- Pin 7: DIN of MAX7219
+- Pin 6: CS of MAX7219
+- Pin 5: CLK of MAX7219
+- +5V: the other end of Pushbutton and VCC of MAX7219
+- GND: GND on MAX7219
 
 Known Bugs (most solved temporarily by resetting the board):
 - sometimes the Pushbutton won't work
